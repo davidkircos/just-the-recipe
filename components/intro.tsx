@@ -1,5 +1,3 @@
-import { CMS_NAME } from "../lib/constants";
-
 const Intro = () => {
   return (
     <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
@@ -7,9 +5,9 @@ const Intro = () => {
         Just The Recipe
       </h1>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        No articles or stories, just recipes by{" "}
+        No articles or stories, <br className="lg:hidden"></br> just recipes by{" "}
         <a
-          href="https://davidkircos.com"
+          href="https://www.davidkircos.com"
           target="_blank"
           className="underline hover:text-blue-600 duration-200 transition-colors"
         >

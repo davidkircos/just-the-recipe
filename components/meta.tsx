@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import { CMS_NAME, HOME_OG_IMAGE_URL } from '../lib/constants'
+import Head from "next/head";
+import { HOME_OG_IMAGE_URL } from "../lib/constants";
 
 const Meta = () => {
   return (
@@ -34,11 +34,14 @@ const Meta = () => {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="description"
-        content={`A statically generated blog example using Next.js and ${CMS_NAME}.`}
+        content={`Recipe website, with just the recipe.`}
       />
-      <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+      <meta
+        property="og:image"
+        content={`${process.env.NEXT_PUBLIC_BASE_URL}/og.png`}
+      />
     </Head>
-  )
-}
+  );
+};
 
-export default Meta
+export default Meta;
