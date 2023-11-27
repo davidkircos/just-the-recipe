@@ -7,7 +7,7 @@ const Intro = () => {
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
         No articles or stories, <br className="lg:hidden"></br> just recipes by{" "}
         <a
-          href="https://www.davidkircos.com"
+          href="https://www.davidkircos.com/about"
           target="_blank"
           className="underline hover:text-blue-600 duration-200 transition-colors"
         >

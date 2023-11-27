@@ -1,6 +1,6 @@
 ---
 title: 'Italian Sausage & Leek Pasta'
-excerpt: 'Brought to you from a Tuscan cooking class in 2015'
+excerpt: 'From Tuscany to my mother to you, a classic Italian pasta recipe.'
 coverImage: '/assets/blog/images/sausageleek.png'
 date: '2020-03-16T05:35:07.322Z'
 author:
