@@ -36,7 +36,7 @@ export default function Post({ post, morePosts, preview }: Props) {
                 <title>{title}</title>
                 <meta
                   property="og:image"
-                  content={`https://${process.env.VERCEL_URL}/${post.ogImage.url}`}
+                  content={`https://${process.env.NEXT_PUBLIC_VERCEL_URL}${post.ogImage.url}`}
                 />
               </Head>
               <PostHeader
