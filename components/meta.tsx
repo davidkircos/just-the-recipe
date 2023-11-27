@@ -37,7 +37,7 @@ const Meta = () => {
       />
       <meta
         property="og:image"
-        content={`${process.env.NEXT_PUBLIC_BASE_URL}/og.png`}
+        content={`https://${process.env.VERCEL_URL}/og.png`}
       />
     </Head>
   );

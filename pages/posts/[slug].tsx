@@ -34,7 +34,10 @@ export default function Post({ post, morePosts, preview }: Props) {
             <article className="mb-32">
               <Head>
                 <title>{title}</title>
-                <meta property="og:image" content={post.ogImage.url} />
+                <meta
+                  property="og:image"
+                  content={`https://${process.env.VERCEL_URL}/${post.ogImage.url}`}
+                />
               </Head>
               <PostHeader
                 title={post.title}
