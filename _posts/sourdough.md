@@ -2,7 +2,7 @@
 title: 'Ceramic Bread Bowl Sourdough'
 excerpt: 'The canonical way to make Sourdough using a stand mixer and a ceramic bowl.'
 coverImage: '/assets/blog/images/sourdough.png'
-date: '2020-03-16T05:35:07.322Z'
+date: '2023-11-26T05:35:07.322Z'
 author:
   name: Caroline Quanbeck
   picture: '/assets/blog/authors/caroline.jpg'
