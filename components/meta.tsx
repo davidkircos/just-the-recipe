@@ -35,10 +35,10 @@ const Meta = () => {
         name="description"
         content={`Recipe website, with just the recipe.`}
       />
-      <meta
+      {/* <meta
         property="og:image"
         content={`https://just-the-recipe.com/og.png`}
-      />
+      /> */}
     </Head>
   );
 };
